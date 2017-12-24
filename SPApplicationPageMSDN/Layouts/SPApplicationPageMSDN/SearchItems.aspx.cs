@@ -7,6 +7,10 @@ using System.Web.UI.WebControls;
 
 namespace SPApplicationPageMSDN.Layouts.SPApplicationPageMSDN
 {
+
+    // You can make the F5 starts directly into the Application Page
+    // by right click the Application Page ==> "Set as Startup Item"
+
     public partial class SearchItems : LayoutsPageBase
     {
         protected void Page_Load(object sender, EventArgs e)
