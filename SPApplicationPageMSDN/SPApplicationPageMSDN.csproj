@@ -64,6 +64,9 @@
   <ItemGroup>
     <Folder Include="Features\" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
