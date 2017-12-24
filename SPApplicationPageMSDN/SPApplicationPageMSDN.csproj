@@ -44,16 +44,27 @@
     <Reference Include="System.Core" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="Microsoft.SharePoint" />
     <Reference Include="Microsoft.SharePoint.Client.ServerRuntime" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Layouts\SPApplicationPageMSDN\SearchItems.aspx.cs">
+      <DependentUpon>SearchItems.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Layouts\SPApplicationPageMSDN\SearchItems.aspx.designer.cs">
+      <DependentUpon>SearchItems.aspx.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="key.snk" />
+    <None Include="Layouts\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{4f63044a-febf-458a-833f-95e9a46b2223}</SharePointProjectItemId>
+    </None>
     <None Include="Package\Package.package">
       <PackageId>{66a5b5ec-368f-425b-a2fd-77aebe125a76}</PackageId>
     </None>
@@ -66,6 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.txt" />
+    <Content Include="Layouts\SPApplicationPageMSDN\SearchItems.aspx" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
