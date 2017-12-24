@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="66a5b5ec-368f-425b-a2fd-77aebe125a76" 
+        solutionId="66a5b5ec-368f-425b-a2fd-77aebe125a76" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SPApplicationPageMSDN"
+        sharePointProductVersion="15.0">
+</package>

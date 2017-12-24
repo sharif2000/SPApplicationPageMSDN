@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPApplicationPageMSDN", "SPApplicationPageMSDN\SPApplicationPageMSDN.csproj", "{28084928-0F90-4082-A0B4-B150C1E965AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28084928-0F90-4082-A0B4-B150C1E965AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28084928-0F90-4082-A0B4-B150C1E965AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28084928-0F90-4082-A0B4-B150C1E965AA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{28084928-0F90-4082-A0B4-B150C1E965AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28084928-0F90-4082-A0B4-B150C1E965AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28084928-0F90-4082-A0B4-B150C1E965AA}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00B1C617-912B-4A47-94D6-564B036BA8A4}
+	EndGlobalSection
+EndGlobal
